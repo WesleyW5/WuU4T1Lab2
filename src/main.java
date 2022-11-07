@@ -4,7 +4,14 @@ public class main {
 
         WhileLoopFun fun = new WhileLoopFun();
 
-        fun.printDigits(141);
+        System.out.println("-- test printDigits --");
+        fun.printDigits(5);
+        System.out.println("---");
+        fun.printDigits(361);
+        System.out.println("---");
+        fun.printDigits(98000);
+        System.out.println("---");
+        fun.printDigits(150856);
 
         System.out.println("-- test countLetter --");
         System.out.println(fun.countLetter("apple", "a"));
@@ -35,6 +42,7 @@ public class main {
         System.out.println(fun.isPrime(30));
         System.out.println(fun.isPrime(771));
         System.out.println(fun.isPrime(93243));
+
 
 
     }
